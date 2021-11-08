@@ -1,0 +1,51 @@
+Microsoft Windows [Version 10.0.19041.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\skull>cd desktop
+
+C:\Users\skull\Desktop>mkdir xrel
+
+C:\Users\skull\Desktop>cd xrel
+
+C:\Users\skull\Desktop\xrel>code .
+
+C:\Users\skull\Desktop\xrel>code .
+
+C:\Users\skull\Desktop\xrel>npm init -y
+Wrote to C:\Users\skull\Desktop\xrel\package.json:
+
+{
+  "name": "xrel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\skull\Desktop\xrel>npm i webpack webpack-cli -D
+
+added 119 packages, and audited 120 packages in 55s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\skull\Desktop\xrel>npm run build
+
+> xrel@1.0.0 build
+> webpack
+
+asset bundle.js 1.2 KiB [emitted] (name: main)
+./src/index.js 26 bytes [built] [code generated]
+webpack 5.62.1 compiled successfully in 413 ms
+^CTerminate batch job (Y/N)? y
+
+C:\Users\skull\Desktop\xrel>
